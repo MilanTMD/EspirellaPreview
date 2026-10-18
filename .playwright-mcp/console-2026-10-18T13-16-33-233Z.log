@@ -1,0 +1,17 @@
+[      33ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/hero-kava.webp:0
+[      55ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/produkt-brasil-zrno.webp:0
+[      55ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/produkt-royal-gold-zrno.webp:0
+[      56ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/produkt-columbia-zrno.webp:0
+[      56ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/produkt-green-tea-passion.webp:0
+[    5015ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/hero-kava.webp:0
+[    5037ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/produkt-brasil-zrno.webp:0
+[    5037ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/produkt-royal-gold-zrno.webp:0
+[    5038ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/produkt-columbia-zrno.webp:0
+[    5038ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/produkt-green-tea-passion.webp:0
+[   72084ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/ochutnavka.webp:0
+[   97962ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/hero-kava.webp:0
+[   97977ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/produkt-brasil-zrno.webp:0
+[   97979ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/produkt-green-tea-passion.webp:0
+[   97980ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/produkt-columbia-zrno.webp:0
+[   97980ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/produkt-royal-gold-zrno.webp:0
+[   97980ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/ochutnavka.webp:0

@@ -1,0 +1,162 @@
+- generic [active] [ref=f4e1]:
+  - link "Přeskočit na obsah" [ref=f4e2] [cursor=pointer]:
+    - /url: "#obsah"
+  - banner [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - link "Espirella – hlavní stránka" [ref=f4e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Espirella" [ref=f4e6]
+      - navigation "Hlavní navigace" [ref=f4e7]:
+        - link "Košík" [ref=f4e8] [cursor=pointer]:
+          - /url: https://www.espirella.com/kosik/
+        - link "Kontakt" [ref=f4e9] [cursor=pointer]:
+          - /url: https://www.espirella.com/kontakt/
+        - link "Obchod" [ref=f4e10] [cursor=pointer]:
+          - /url: https://www.espirella.com/obchod/
+  - main [ref=f4e11]:
+    - region [ref=f4e12]:
+      - generic [ref=f4e14]:
+        - paragraph [ref=f4e15]: Káva · zrno
+        - heading "Káva od malých farmářů" [level=1] [ref=f4e16]
+        - paragraph [ref=f4e17]: Ručně vybíraná zrna středního pražení, která si objednáte přímo z našeho e‑shopu.
+        - generic [ref=f4e18]:
+          - link "Do obchodu" [ref=f4e19] [cursor=pointer]:
+            - /url: https://www.espirella.com/obchod/
+            - text: Do obchodu
+            - generic [aria-hidden] [ref=f4e20]: →
+          - link "Domluvit ochutnávku" [ref=f4e21] [cursor=pointer]:
+            - /url: https://www.espirella.com/kontakt/
+      - generic [ref=f4e22]: hero-kava.webp
+    - region [ref=f4e24]:
+      - generic [ref=f4e25]:
+        - generic [ref=f4e26]:
+          - paragraph [ref=f4e27]: E-shop
+          - heading "Naše káva a čaj" [level=2] [ref=f4e28]
+        - generic [ref=f4e29]:
+          - article [ref=f4e30]:
+            - generic [ref=f4e31]:
+              - generic [aria-hidden] [ref=f4e32]: ll
+              - generic [ref=f4e33]: produkt-brasil-zrno.webp
+            - generic [ref=f4e34]:
+              - paragraph [ref=f4e35]: Káva · zrno
+              - heading [level=3] [ref=f4e36]:
+                - link "espirella Brasil – zrno" [ref=f4e37] [cursor=pointer]:
+                  - /url: https://www.espirella.com/obchod/espirella-brasil-zrno/
+              - paragraph [ref=f4e38]: Brazílie · střední pražení
+              - generic [ref=f4e39]:
+                - paragraph [ref=f4e40]: 191 Kč
+                - paragraph [aria-hidden] [ref=f4e41]: Vybrat →
+          - article [ref=f4e42]:
+            - generic [ref=f4e43]:
+              - generic [aria-hidden] [ref=f4e44]: ll
+              - generic [ref=f4e45]: produkt-royal-gold-zrno.webp
+            - generic [ref=f4e46]:
+              - paragraph [ref=f4e47]: Káva · zrno
+              - heading [level=3] [ref=f4e48]:
+                - link "espirella Royal Gold – zrno" [ref=f4e49] [cursor=pointer]:
+                  - /url: https://www.espirella.com/obchod/espirella-royal-gold-zrno/
+              - paragraph [ref=f4e50]: Střední pražení
+              - generic [ref=f4e51]:
+                - paragraph [ref=f4e52]: 191 Kč – 359 Kč
+                - paragraph [aria-hidden] [ref=f4e53]: Vybrat →
+          - article [ref=f4e54]:
+            - generic [ref=f4e55]:
+              - generic [aria-hidden] [ref=f4e56]: ll
+              - generic [ref=f4e57]: produkt-columbia-zrno.webp
+            - generic [ref=f4e58]:
+              - paragraph [ref=f4e59]: Káva · zrno
+              - heading [level=3] [ref=f4e60]:
+                - link "espirella Columbia – zrno" [ref=f4e61] [cursor=pointer]:
+                  - /url: https://www.espirella.com/obchod/espirella-columbia-zrno/
+              - paragraph [ref=f4e62]: Střední pražení
+              - generic [ref=f4e63]:
+                - paragraph [ref=f4e64]: 202 Kč
+                - paragraph [aria-hidden] [ref=f4e65]: Vybrat →
+          - article [ref=f4e66]:
+            - generic [ref=f4e67]:
+              - generic [aria-hidden] [ref=f4e68]: ll
+              - generic [ref=f4e69]: produkt-green-tea-passion.webp
+            - generic [ref=f4e70]:
+              - paragraph [ref=f4e71]: Čaj
+              - heading [level=3] [ref=f4e72]:
+                - link "Green tea passion" [ref=f4e73] [cursor=pointer]:
+                  - /url: https://www.espirella.com/obchod/green-tea-passion/
+              - generic [ref=f4e74]:
+                - paragraph [ref=f4e75]: 184 Kč
+                - paragraph [aria-hidden] [ref=f4e76]: Vybrat →
+        - link "Do obchodu" [ref=f4e78] [cursor=pointer]:
+          - /url: https://www.espirella.com/obchod/
+          - text: Do obchodu
+          - generic [aria-hidden] [ref=f4e79]: →
+    - region [ref=f4e80]:
+      - generic [ref=f4e81]:
+        - generic [ref=f4e82]:
+          - paragraph [ref=f4e83]: Naše káva
+          - heading "Čím je výjimečná" [level=2] [ref=f4e84]
+        - list [ref=f4e85]:
+          - listitem [ref=f4e86]:
+            - paragraph [aria-hidden] [ref=f4e87]: "01"
+            - heading "Sklízení" [level=3] [ref=f4e88]
+            - paragraph [ref=f4e89]: Káva pochází od malých nezávislých farmářů a je ručně vybírána, aby měla 100% kvalitu zrn.
+          - listitem [ref=f4e90]:
+            - paragraph [aria-hidden] [ref=f4e91]: "02"
+            - heading "Pražení" [level=3] [ref=f4e92]
+            - paragraph [ref=f4e93]: Zrna jsou středního pražení.
+          - listitem [ref=f4e94]:
+            - paragraph [aria-hidden] [ref=f4e95]: "03"
+            - heading "Příprava" [level=3] [ref=f4e96]
+            - paragraph [ref=f4e97]: Pro přípravu doporučujeme French Press.
+    - region [ref=f4e98]:
+      - generic [ref=f4e99]:
+        - generic [ref=f4e100]:
+          - generic [aria-hidden] [ref=f4e101]: ll
+          - generic [ref=f4e102]: ochutnavka.webp
+          - 'img "Ochutnávka kávy: několik šálků čerstvě připravené kávy a misky s kávovými zrny na dřevěném pultu" [ref=f4e103]'
+        - generic [ref=f4e104]:
+          - paragraph [ref=f4e105]: Ochutnávka
+          - heading "Ochutnávka kávy? Žádný problém" [level=2] [ref=f4e106]:
+            - text: Ochutnávka kávy?
+            - generic [ref=f4e107]: Žádný problém
+          - paragraph [ref=f4e108]: Kávu si můžete před nákupem ochutnat. Ochutnávku si domluvte předem v naší prodejně – stačí nám napsat přes kontaktní formulář.
+          - link "Domluvit ochutnávku" [ref=f4e110] [cursor=pointer]:
+            - /url: https://www.espirella.com/kontakt/
+          - paragraph [ref=f4e111]: Po–Pá 9.00–15.00
+  - contentinfo [ref=f4e112]:
+    - generic [ref=f4e113]:
+      - img "Espirella – značka" [ref=f4e115]
+      - generic [ref=f4e116]:
+        - heading "Sídlo společnosti" [level=2] [ref=f4e117]
+        - generic [ref=f4e118]:
+          - paragraph [ref=f4e119]: Espirella, s.r.o.Kaprova 42/14, Staré Město110 00 Praha
+          - paragraph [ref=f4e120]: "IČO: 24187267"
+        - list [ref=f4e121]:
+          - listitem [ref=f4e122]:
+            - link "info@espirella.com" [ref=f4e123] [cursor=pointer]:
+              - /url: mailto:info@espirella.com
+          - listitem [ref=f4e124]:
+            - link "+420 608 311 088" [ref=f4e125] [cursor=pointer]:
+              - /url: tel:+420608311088
+      - generic [ref=f4e126]:
+        - heading "Adresa skladu" [level=2] [ref=f4e127]
+        - paragraph [ref=f4e129]: Politických věznů 1233/40, budova EŘíčany u Prahy251 01
+      - generic [ref=f4e130]:
+        - heading "Otevírací doba" [level=2] [ref=f4e131]
+        - generic [ref=f4e132]:
+          - generic [ref=f4e133]:
+            - term [ref=f4e134]: Pondělí – Pátek
+            - definition [ref=f4e135]: 9.00 – 15.00
+          - generic [ref=f4e136]:
+            - term [ref=f4e137]: Sobota
+            - definition [ref=f4e138]: Zavřeno
+          - generic [ref=f4e139]:
+            - term [ref=f4e140]: Neděle
+            - definition [ref=f4e141]: Zavřeno
+    - generic [ref=f4e143]:
+      - list [ref=f4e144]:
+        - listitem [ref=f4e145]:
+          - link "Všeobecné obchodní podmínky" [ref=f4e146] [cursor=pointer]:
+            - /url: https://web.archive.org/web/20200922174451/https://www.espirella.com/wp-content/uploads/2018/07/Vseobecne-ObchodniPodminky-Espirella.pdf
+        - listitem [ref=f4e147]:
+          - link "Ochrana osobních údajů" [ref=f4e148] [cursor=pointer]:
+            - /url: https://web.archive.org/web/20200922165118/https://www.espirella.com/wp-content/uploads/2018/07/Podminky-Ochrany-Osobnich-Udaju-Espirella.pdf
+      - paragraph [ref=f4e149]: Design concept for Espirella, s.r.o., not a live site.Designový koncept pro Espirella, s.r.o., nejde o ostrý web.

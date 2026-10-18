@@ -1,0 +1,144 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: https://www.espirella.com/
+        - img "Espirella" [ref=e7]
+      - generic [ref=e8]:
+        - navigation
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: https://www.espirella.com/kosik/
+        - generic: U
+        - generic [ref=e11]: a
+    - generic [ref=e15]:
+      - search [ref=e16]:
+        - searchbox "Hledat:" [ref=e17]
+      - generic [ref=e18] [cursor=pointer]: M
+  - generic [ref=e19]:
+    - article [ref=e21]:
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e29]:
+            - heading "Vítejte na webových stránkách espirella s.r.o." [level=1] [ref=e30]
+            - link "Obchod" [ref=e31] [cursor=pointer]:
+              - /url: https://www.espirella.com/obchod/
+            - link "Kontakt" [ref=e32] [cursor=pointer]:
+              - /url: https://www.espirella.com/kontakt/
+          - link "3" [ref=e33] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e35]:
+          - generic [ref=e39]:
+            - heading "NAŠE KÁVA" [level=2] [ref=e40]
+            - heading "ČÍM JE VÝJIMEČNÁ" [level=3] [ref=e41]
+          - generic [ref=e43]:
+            - generic [ref=e50]:
+              - heading "01 Sklízení" [level=3] [ref=e52]
+              - paragraph [ref=e53]: Naše káva pochází z mnoha oblastí, jako je např. Brazílie. Káva je ručně vybírána pro zajištění 100% kvality kávových zrn. Prostředí ve kterém je káva pěstována je velmi rozličné, některé druhy kávy jsou pěstovány na bahnitém a jiné na kamenitém podkladu za různých intenzit slunečního záření.
+            - generic [ref=e60]:
+              - heading "02 Pražení" [level=3] [ref=e62]
+              - paragraph [ref=e63]: Pražení a balení kávy je jedním z hlavních procesů potřebných pro umocnění chuti a kvality kávy, proto naše káva pochází od malých nezávislých farmářů, kteří se o své výrobky skvěle pečují. Takto získaná káva následně podstoupí proces středního pražení pro maximální zisk chuti a následně ručně vybírána a balena.
+            - generic [ref=e70]:
+              - heading "03 Příprava" [level=3] [ref=e72]
+              - paragraph [ref=e73]: Posledním krokem k dokonalé kávě je příprava. Každý milovník kávy má svůj oblíbený postup k přípravě kávy. Doporučujeme vyzkoušení přípravu kávy způsobem French Press
+        - generic [ref=e76]:
+          - generic [ref=e78]:
+            - heading "OCHUTNÁVKA KÁVY?" [level=2] [ref=e79]
+            - heading "ŽÁDNÝ PROBLÉM" [level=3] [ref=e80]
+            - paragraph [ref=e81]: Chcete si s námi dát šálek kávy Espirella? Pojďte si domluvit termín ochutnávky a rádi vás přivítáme v naší prodejně a dáme vám ochutnat naší skvělé kávy.
+          - link "Domluvit ochutnávku" [ref=e83] [cursor=pointer]:
+            - /url: https://www.espirella.com/kontakt/
+        - generic [ref=e84]:
+          - generic [ref=e88]:
+            - heading "KÁVA" [level=2] [ref=e89]
+            - heading "KTEROU ZÁKAZNÍCI MILUJÍ" [level=3] [ref=e90]
+          - generic [ref=e93]:
+            - list [ref=e96]:
+              - listitem [ref=e97]:
+                - link "T espirella Brasil – zrno 191 Kč" [ref=e98] [cursor=pointer]:
+                  - /url: https://www.espirella.com/obchod/espirella-brasil-zrno/
+                  - generic [ref=e99]: T
+                  - heading "espirella Brasil – zrno" [level=2] [ref=e100]
+                  - generic [ref=e101]: 191 Kč
+              - listitem [ref=e104]:
+                - link "T espirella Royal Gold – zrno 191 Kč – 359 Kč" [ref=e105] [cursor=pointer]:
+                  - /url: https://www.espirella.com/obchod/espirella-royal-gold-zrno/
+                  - generic [ref=e106]: T
+                  - heading "espirella Royal Gold – zrno" [level=2] [ref=e107]
+                  - generic [ref=e108]:
+                    - generic [ref=e109]: 191 Kč
+                    - text: –
+                    - generic [ref=e111]: 359 Kč
+              - listitem [ref=e113]:
+                - link "T espirella Columbia – zrno 202 Kč" [ref=e114] [cursor=pointer]:
+                  - /url: https://www.espirella.com/obchod/espirella-columbia-zrno/
+                  - generic [ref=e115]: T
+                  - heading "espirella Columbia – zrno" [level=2] [ref=e116]
+                  - generic [ref=e117]: 202 Kč
+              - listitem [ref=e120]:
+                - link "Zástupný symbol T Green tea passion 184 Kč" [ref=e121] [cursor=pointer]:
+                  - /url: https://www.espirella.com/obchod/green-tea-passion/
+                  - generic [ref=e122]:
+                    - img "Zástupný symbol" [ref=e123]
+                    - generic: T
+                  - heading "Green tea passion" [level=2] [ref=e124]
+                  - generic [ref=e125]: 184 Kč
+            - link "Do Obchodu" [ref=e129] [cursor=pointer]:
+              - /url: https://www.espirella.com/obchod/
+        - generic [ref=e131]:
+          - generic [ref=e133]:
+            - generic:
+              - img "logo_white_double"
+          - generic [ref=e136]:
+            - heading "Otevírací doba" [level=2] [ref=e137]
+            - list [ref=e138]:
+              - listitem [ref=e139]:
+                - text: Pondělí
+                - generic [ref=e140]: 9.00 - 15.00
+              - listitem [ref=e141]:
+                - text: Úterý
+                - generic [ref=e142]: 9.00 - 15.00
+              - listitem [ref=e143]:
+                - text: Středa
+                - generic [ref=e144]: 9.00 - 15.00
+              - listitem [ref=e145]:
+                - text: Čtvrtek
+                - generic [ref=e146]: 9.00 - 15.00
+              - listitem [ref=e147]:
+                - text: Pátek
+                - generic [ref=e148]: 9.00 - 15.00
+              - listitem [ref=e149]:
+                - text: Sobota
+                - generic [ref=e150]: Zavřeno
+              - listitem [ref=e151]:
+                - text: Neděle
+                - generic [ref=e152]: Zavřeno
+          - generic [ref=e155]:
+            - heading "Sídlo společnosti" [level=2] [ref=e156]
+            - paragraph [ref=e157]: "IČO: 24187267"
+            - paragraph [ref=e158]:
+              - link "info@espirella.com" [ref=e159] [cursor=pointer]:
+                - /url: mailto:info@espirella.cz
+            - paragraph [ref=e160]:
+              - link "+420 608 311 088" [ref=e161] [cursor=pointer]:
+                - /url: tel:+420608311088
+            - paragraph [ref=e162]: Kaprova 42/14,
+            - paragraph [ref=e163]: Staré Město, 110 00 Praha
+            - paragraph [ref=e164]:
+              - link "Všeobecné obchodní podmínky" [ref=e165] [cursor=pointer]:
+                - /url: https://web.archive.org/web/20221206060823/https://www.espirella.com/wp-content/uploads/2018/07/Vseobecne-ObchodniPodminky-Espirella.pdf
+              - link "Ochrana osobních údajů" [ref=e166] [cursor=pointer]:
+                - /url: https://web.archive.org/web/20221206060823/https://www.espirella.com/wp-content/uploads/2018/07/Podminky-Ochrany-Osobnich-Udaju-Espirella.pdf
+          - generic [ref=e169]:
+            - heading "Adresa Skladu" [level=2] [ref=e170]
+            - paragraph [ref=e171]:
+              - link "info@espirella.com" [ref=e172] [cursor=pointer]:
+                - /url: mailto:info@espirella.cz
+            - paragraph [ref=e173]:
+              - link "+420 608 311 088" [ref=e174] [cursor=pointer]:
+                - /url: tel:+420725808007
+            - paragraph [ref=e175]: Politických věznů 1233/40, budova E
+            - paragraph [ref=e176]: Říčany u Prahy, 251 01
+        - generic [ref=e178]:
+          - img "logo_text_white" [ref=e182]
+          - paragraph [ref=e186]: © 2023 All rights reserved
+    - text: 2    
