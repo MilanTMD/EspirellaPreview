@@ -1,0 +1,166 @@
+- generic [active] [ref=e1]:
+  - link "Přeskočit na obsah" [ref=e2] [cursor=pointer]:
+    - /url: "#obsah"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Espirella – hlavní stránka" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Espirella" [ref=e6]
+      - navigation "Hlavní navigace" [ref=e7]:
+        - link "Košík" [ref=e8] [cursor=pointer]:
+          - /url: beyond-preview.html
+        - link "Kontakt" [ref=e9] [cursor=pointer]:
+          - /url: "#kontakt"
+        - link "Obchod" [ref=e10] [cursor=pointer]:
+          - /url: beyond-preview.html
+  - main [ref=e11]:
+    - region [ref=e12]:
+      - generic [ref=e14]:
+        - paragraph [ref=e15]: Káva · zrno
+        - heading "Káva od malých farmářů" [level=1] [ref=e16]
+        - paragraph [ref=e17]: Ručně vybíraná zrna středního pražení, která si objednáte přímo z našeho e‑shopu.
+        - generic [ref=e18]:
+          - link "Do obchodu" [ref=e19] [cursor=pointer]:
+            - /url: beyond-preview.html
+            - text: Do obchodu
+            - generic [aria-hidden] [ref=e20]: →
+          - link "Domluvit ochutnávku" [ref=e21] [cursor=pointer]:
+            - /url: beyond-preview.html
+      - generic [ref=e22]: hero-kava.webp
+    - region [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: E-shop
+          - heading "Naše káva a čaj" [level=2] [ref=e28]
+        - generic [ref=e29]:
+          - article [ref=e30]:
+            - generic [ref=e31]:
+              - generic [aria-hidden] [ref=e32]: ll
+              - generic [ref=e33]: produkt-brasil-zrno.webp
+              - img "Balení zrnkové kávy espirella Brasil" [ref=e34]
+            - generic [ref=e35]:
+              - paragraph [ref=e36]: Káva · zrno
+              - heading [level=3] [ref=e37]:
+                - link "espirella Brasil – zrno" [ref=e38] [cursor=pointer]:
+                  - /url: beyond-preview.html
+              - paragraph [ref=e39]: Brazílie · střední pražení
+              - generic [ref=e40]:
+                - paragraph [ref=e41]: 191 Kč
+                - paragraph [aria-hidden] [ref=e42]: Vybrat →
+          - article [ref=e43]:
+            - generic [ref=e44]:
+              - generic [aria-hidden] [ref=e45]: ll
+              - generic [ref=e46]: produkt-royal-gold-zrno.webp
+              - img "Balení zrnkové kávy espirella Royal Gold" [ref=e47]
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: Káva · zrno
+              - heading [level=3] [ref=e50]:
+                - link "espirella Royal Gold – zrno" [ref=e51] [cursor=pointer]:
+                  - /url: beyond-preview.html
+              - paragraph [ref=e52]: Střední pražení
+              - generic [ref=e53]:
+                - paragraph [ref=e54]: 191 Kč – 359 Kč
+                - paragraph [aria-hidden] [ref=e55]: Vybrat →
+          - article [ref=e56]:
+            - generic [ref=e57]:
+              - generic [aria-hidden] [ref=e58]: ll
+              - generic [ref=e59]: produkt-columbia-zrno.webp
+              - img "Balení zrnkové kávy espirella Columbia" [ref=e60]
+            - generic [ref=e61]:
+              - paragraph [ref=e62]: Káva · zrno
+              - heading [level=3] [ref=e63]:
+                - link "espirella Columbia – zrno" [ref=e64] [cursor=pointer]:
+                  - /url: beyond-preview.html
+              - paragraph [ref=e65]: Střední pražení
+              - generic [ref=e66]:
+                - paragraph [ref=e67]: 202 Kč
+                - paragraph [aria-hidden] [ref=e68]: Vybrat →
+          - article [ref=e69]:
+            - generic [ref=e70]:
+              - generic [aria-hidden] [ref=e71]: ll
+              - generic [ref=e72]: produkt-green-tea-passion.webp
+              - img "Balení čaje Green tea passion s lístky zeleného čaje" [ref=e73]
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: Čaj
+              - heading [level=3] [ref=e76]:
+                - link "Green tea passion" [ref=e77] [cursor=pointer]:
+                  - /url: beyond-preview.html
+              - generic [ref=e78]:
+                - paragraph [ref=e79]: 184 Kč
+                - paragraph [aria-hidden] [ref=e80]: Vybrat →
+        - link "Do obchodu" [ref=e82] [cursor=pointer]:
+          - /url: beyond-preview.html
+          - text: Do obchodu
+          - generic [aria-hidden] [ref=e83]: →
+    - region [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - paragraph [ref=e87]: Naše káva
+          - heading "Čím je výjimečná" [level=2] [ref=e88]
+        - list [ref=e89]:
+          - listitem [ref=e90]:
+            - paragraph [aria-hidden] [ref=e91]: "01"
+            - heading "Sklízení" [level=3] [ref=e92]
+            - paragraph [ref=e93]: Káva pochází od malých nezávislých farmářů a je ručně vybírána, aby měla 100% kvalitu zrn.
+          - listitem [ref=e94]:
+            - paragraph [aria-hidden] [ref=e95]: "02"
+            - heading "Pražení" [level=3] [ref=e96]
+            - paragraph [ref=e97]: Zrna jsou středního pražení.
+          - listitem [ref=e98]:
+            - paragraph [aria-hidden] [ref=e99]: "03"
+            - heading "Příprava" [level=3] [ref=e100]
+            - paragraph [ref=e101]: Pro přípravu doporučujeme French Press.
+    - region [ref=e102]:
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - generic [aria-hidden] [ref=e105]: ll
+          - generic [ref=e106]: ochutnavka.webp
+          - 'img "Ochutnávka kávy: několik šálků čerstvě připravené kávy a misky s kávovými zrny na dřevěném pultu" [ref=e107]'
+        - generic [ref=e108]:
+          - paragraph [ref=e109]: Ochutnávka
+          - heading "Ochutnávka kávy? Žádný problém" [level=2] [ref=e110]:
+            - text: Ochutnávka kávy?
+            - generic [ref=e111]: Žádný problém
+          - paragraph [ref=e112]: Kávu si můžete před nákupem ochutnat. Ochutnávku si domluvte předem v naší prodejně – stačí nám napsat přes kontaktní formulář.
+          - link "Domluvit ochutnávku" [ref=e114] [cursor=pointer]:
+            - /url: beyond-preview.html
+          - paragraph [ref=e115]: Po–Pá 9.00–15.00
+  - contentinfo [ref=e116]:
+    - generic [ref=e117]:
+      - img "Espirella – značka" [ref=e119]
+      - generic [ref=e120]:
+        - heading "Sídlo společnosti" [level=2] [ref=e121]
+        - generic [ref=e122]:
+          - paragraph [ref=e123]: Espirella, s.r.o.Kaprova 42/14, Staré Město110 00 Praha
+          - paragraph [ref=e124]: "IČO: 24187267"
+        - list [ref=e125]:
+          - listitem [ref=e126]:
+            - link "info@espirella.com" [ref=e127] [cursor=pointer]:
+              - /url: mailto:info@espirella.com
+          - listitem [ref=e128]:
+            - link "+420 608 311 088" [ref=e129] [cursor=pointer]:
+              - /url: tel:+420608311088
+      - generic [ref=e130]:
+        - heading "Adresa skladu" [level=2] [ref=e131]
+        - paragraph [ref=e133]: Politických věznů 1233/40, budova EŘíčany u Prahy251 01
+      - generic [ref=e134]:
+        - heading "Otevírací doba" [level=2] [ref=e135]
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - term [ref=e138]: Pondělí – Pátek
+            - definition [ref=e139]: 9.00 – 15.00
+          - generic [ref=e140]:
+            - term [ref=e141]: Sobota
+            - definition [ref=e142]: Zavřeno
+          - generic [ref=e143]:
+            - term [ref=e144]: Neděle
+            - definition [ref=e145]: Zavřeno
+    - generic [ref=e147]:
+      - list [ref=e148]:
+        - listitem [ref=e149]:
+          - link "Všeobecné obchodní podmínky" [ref=e150] [cursor=pointer]:
+            - /url: beyond-preview.html
+        - listitem [ref=e151]:
+          - link "Ochrana osobních údajů" [ref=e152] [cursor=pointer]:
+            - /url: beyond-preview.html
+      - paragraph [ref=e153]: Design concept for Espirella, s.r.o., not a live site.Designový koncept pro Espirella, s.r.o., nejde o ostrý web.

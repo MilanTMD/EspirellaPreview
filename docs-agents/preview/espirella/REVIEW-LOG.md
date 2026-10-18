@@ -96,3 +96,70 @@ Round 2 fixes confirmed on screen; Royal Gold card at 375 still partial. Placeho
 3. Product cards at 1440: uneven title wrapping; Green tea has no meta line, leaving empty space above its price.
 4. Steps at 1440: 02 and 03 descriptions are one short line each. Content limit; ask the owner for more detail.
 5. Header at 375: "Košík" and "Kontakt" only 12px apart. Minor.
+
+---
+
+# Update: links and beyond-preview page
+
+The /preview command was updated: no link may lead to the prospect's old website, and every link to another page of the site goes to a new `beyond-preview.html`. Only the links and that page were changed; the homepage design was not redone.
+
+**Builder report (links update)**
+- Links – **done.** Košík, Obchod, both hero CTAs, the products "Do obchodu", the tasting CTA, the 4 product cards and both legal links → `beyond-preview.html`. Header "Kontakt" → `#kontakt` on the footer's "Sídlo společnosti" column. Logo and "Hlavní stránka" → `index.html`. `mailto:`/`tel:` unchanged. No canonical/og:url/og:image existed.
+- `beyond-preview.html` – **done.** Same CSS, fonts, header and footer; `noindex, nofollow`; H1 "Tato stránka není součástí ukázky", short Czech explanation, primary "Zpět na ukázku" → `index.html`; nav "Kontakt" → `index.html#kontakt`.
+- Check – **passed.** The only `espirella.c…` match in either HTML file is `mailto:info@espirella.com`. All referenced files exist except the 6 ASSETS.md images.
+
+## Update round 1
+
+**Verdict: REVISE** (Originality 7, carried unresolved item; nothing blocking)
+
+| Criterion | Final | Update 1 |
+|---|---|---|
+| Hierarchy | 8 | 8 |
+| Typography | 8 | 8 |
+| Spacing and rhythm | 8 | 8 |
+| Color | 8 | 8 |
+| Motion | 8 | 8 |
+| Originality | 7 | 7 |
+| Polish | 8 | 8 |
+
+`beyond-preview.html`: about 7 — consistent and well made, but plain and a dead end.
+
+**Link scan:** no `href`, `src`, `srcset` or meta `content` on either page points to espirella.com/.cz (only the allowed mailto). Clicked Košík, Obchod, both "Do obchodu", a product card, both "Domluvit ochutnávku", a legal link → all open `beyond-preview.html`; "Zpět na ukázku" returns home; "Kontakt" lands on the contact details from both pages.
+
+**Critic fixes (in order)**
+1. 375px Kontakt jump: only the tail of the footer "ll" mark shows under the header. Move `id="kontakt"` to `.site-footer__grid`, `scroll-margin-top` = header height + `--space-5`.
+2. `beyond-preview.html`: no next step for visitors who came to order or book. Add a line with the footer's email/phone as text links, plus a secondary "Kontakt" button → `index.html#kontakt`.
+3. `beyond-preview.html` at 1440: text floats in a mostly empty band. Add a visual anchor at ≥1024px (large "ll" mark or placeholder-style panel), or drop the forced viewport height.
+4. `beyond-preview.html` copy: "Ukázka" three times. Eyebrow → "Designový koncept".
+5. (Minor, optional) Mark "Obchod" as current on `beyond-preview.html`.
+
+**Builder report (update round 1 fixes)**
+1. Kontakt jump – **done.** `id="kontakt"` moved to `.site-footer__grid` on both pages; `scroll-margin-top: calc(var(--header-h) + var(--space-5))`.
+2. Next step on `beyond-preview.html` – **done.** Contact line with `mailto:`/`tel:` text links; `.btn-row` with primary "Zpět na ukázku" and outline "Kontakt" → `index.html#kontakt`; full width under 560px.
+3. Composition at ≥1024px – **done.** Two-column grid with a `slot slot--sand` panel and a 160px "ll" mark; band now `padding-block: var(--section-pad)` with `min-height: 480px`. Mobile unchanged.
+4. Eyebrow – **done.** "Designový koncept".
+5. Current page – **done** (semantic only): `aria-current="page"` on "Obchod"; the pill looks unchanged.
+
+Check: only `mailto:`/visible email text match `espirella.c…`; nothing remote; all files exist except the 6 ASSETS.md images.
+
+## Update final check
+
+**Verdict: REVISE** (Originality 7, carried; links clean)
+
+| Criterion | Final | Update 1 | Update final |
+|---|---|---|---|
+| Hierarchy | 8 | 8 | 8 |
+| Typography | 8 | 8 | 8 |
+| Spacing and rhythm | 8 | 8 | 8 |
+| Color | 8 | 8 | 8 |
+| Motion | 8 | 8 | 8 |
+| Originality | 7 | 7 | 7 |
+| Polish | 8 | 8 | 8 |
+
+`beyond-preview.html`: 6, only because of the pill regression below; the critic puts it at 8 once that is fixed. The two-column layout with the sand "ll" panel, the contact line and the two buttons give visitors a real next step.
+
+**Links:** no link on either page points to espirella.com/.cz (only the allowed `mailto:`). Header "Obchod" → `beyond-preview.html`; "Zpět na ukázku" → `index.html`; "Kontakt" button → `index.html#kontakt`. The Kontakt jump at 375 now shows the full footer mark and "Sídlo společnosti" together.
+
+**Regression fixed after the check (director exception).** On `beyond-preview.html` the header "Obchod" pill label was invisible: `.nav a[aria-current="page"]` set its text to the pill's own accent colour. Because this update introduced it, the builder removed `aria-current` from the pill. The markup is now identical to the homepage pill, which renders correctly. It has not been re-screenshotted.
+
+**Unresolved (carried to PITCH.md):** Originality 7 (waiting on images); Royal Gold "Vybrat →" wrap at 375; uneven card titles and Green tea's empty meta at 1440; one-line steps 02/03 (owner content); 12px gap between Košík and Kontakt at 375.

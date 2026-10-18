@@ -26,7 +26,9 @@ If you can, generate at least `hero-kava.webp` and re-shoot the after-screenshot
 
 ## 4. Scores and open items
 
-**Final critic verdict: REVISE.** Scores (round 1 → round 2 → final): Hierarchy 8 → 8 → 8 · Typography 8 → 8 → 8 · Spacing 7 → 7 → 8 · Color 8 → 8 → 8 · Motion 8 → 8 → 8 · Originality 7 → 7 → 7 · Polish 7 → 8 → 8. Only Originality is below 8; the critic expects a strong hero photo may lift it.
+**Final critic verdict: REVISE.** Scores (round 1 → round 2 → final → after the links update): Hierarchy 8 → 8 → 8 → 8 · Typography 8 → 8 → 8 → 8 · Spacing 7 → 7 → 8 → 8 · Color 8 → 8 → 8 → 8 · Motion 8 → 8 → 8 → 8 · Originality 7 → 7 → 7 → 7 · Polish 7 → 8 → 8 → 8. Only Originality is below 8; the critic expects a strong hero photo may lift it.
+
+**Links: none point to the prospect's old website.** Every link that led to espirella.com (navigation, shop and tasting buttons, product cards, legal documents) now opens `beyond-preview.html`. That page says, in Czech, that it isn't part of the concept, and offers "Zpět na ukázku", a "Kontakt" button and the email/phone. "Kontakt" in the header jumps to the contact details in the footer. The only link containing the domain is `mailto:info@espirella.com`, which is allowed. The critic scored `beyond-preview.html` 6 only because of an invisible "Obchod" label, since fixed (see REVIEW-LOG.md); that fix hasn't been re-screenshotted.
 
 **Unresolved critic fixes (final check, by impact)**
 1. Originality: no signature element yet. Re-check after the images are in.
@@ -44,7 +46,7 @@ The smaller `-720` and `-400` variants in ASSETS.md are optional; the page doesn
 
 **To confirm with the owner**
 - **Email and phone.** The concept links info@espirella.com and +420 608 311 088 to exactly what is shown. The live site's links go to info@espirella.cz and +420 725 808 007, and /kontakt/ also lists obchod@espirella.com, so confirm which are correct.
-- **Legal PDFs.** The live site's archive links now end in 404. The concept links to 2020 web.archive.org copies, which work but may be out of date, so ask for the current documents.
+- **Legal PDFs.** The live site's archive links now end in 404. In the concept, "Všeobecné obchodní podmínky" and "Ochrana osobních údajů" open `beyond-preview.html`, so ask for the current documents.
 - **Tasting location.** The copy says "v naší prodejně" without an address, because the site never says whether that's Prague or Říčany.
 - **Copyright line.** "© 2023 All rights reserved" was left out because the year is outdated. Add a current one if wanted.
 - **Not carried over:** the search box, the old page title (replaced with a descriptive one), and the 2023 copyright line.
