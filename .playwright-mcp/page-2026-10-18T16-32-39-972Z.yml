@@ -1,0 +1,178 @@
+- generic [active] [ref=f19e1]:
+  - link "Skip to content" [ref=f19e2] [cursor=pointer]:
+    - /url: "#obsah"
+  - banner [ref=f19e3]:
+    - generic [ref=f19e4]:
+      - link "Espirella – home page" [ref=f19e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Espirella" [ref=f19e6]
+      - navigation "Main navigation" [ref=f19e7]:
+        - link "Home" [ref=f19e8] [cursor=pointer]:
+          - /url: index.html
+        - link "Cart" [ref=f19e9] [cursor=pointer]:
+          - /url: beyond-preview.html
+        - link "Contact" [ref=f19e10] [cursor=pointer]:
+          - /url: "#kontakt"
+        - link "Shop" [ref=f19e11] [cursor=pointer]:
+          - /url: beyond-preview.html
+      - navigation "Language" [ref=f19e12]:
+        - link "Čeština" [ref=f19e13] [cursor=pointer]:
+          - /url: ../index.html
+          - text: CS
+        - link "English" [ref=f19e14] [cursor=pointer]:
+          - /url: index.html
+          - text: EN
+        - link "Deutsch" [ref=f19e15] [cursor=pointer]:
+          - /url: ../de/index.html
+          - text: DE
+  - main [ref=f19e16]:
+    - region [ref=f19e17]:
+      - generic [ref=f19e19]:
+        - paragraph [ref=f19e20]: Coffee · beans
+        - heading "Coffee from small farmers" [level=1] [ref=f19e21]
+        - paragraph [ref=f19e22]: Hand-picked, medium-roasted beans that you can order straight from our e‑shop.
+        - generic [ref=f19e23]:
+          - link "Go to the shop" [ref=f19e24] [cursor=pointer]:
+            - /url: beyond-preview.html
+            - text: Go to the shop
+            - generic [aria-hidden] [ref=f19e25]: →
+          - link "Book a tasting" [ref=f19e26] [cursor=pointer]:
+            - /url: beyond-preview.html
+        - list "Our coffee at a glance" [ref=f19e27]:
+          - listitem [ref=f19e28]: Hand-picked
+          - listitem [ref=f19e29]: Medium roast
+          - listitem [ref=f19e30]: Small independent farmers
+      - generic [ref=f19e31]: hero-kava.webp
+    - region [ref=f19e33]:
+      - generic [ref=f19e34]:
+        - generic [ref=f19e35]:
+          - paragraph [ref=f19e36]: E-shop
+          - heading "Our coffee and tea" [level=2] [ref=f19e37]
+        - generic [ref=f19e38]:
+          - article [ref=f19e39]:
+            - generic [ref=f19e40]:
+              - generic [aria-hidden] [ref=f19e41]: ll
+              - generic [ref=f19e42]: produkt-brasil-zrno.webp
+            - generic [ref=f19e43]:
+              - paragraph [ref=f19e44]: Coffee · beans
+              - heading [level=3] [ref=f19e45]:
+                - link "espirella Brasil – whole beans" [ref=f19e46] [cursor=pointer]:
+                  - /url: beyond-preview.html
+              - paragraph [ref=f19e47]: Brazil · medium roast
+              - generic [ref=f19e48]:
+                - paragraph [ref=f19e49]: 191 Kč
+                - paragraph [aria-hidden] [ref=f19e50]: Select →
+          - article [ref=f19e51]:
+            - generic [ref=f19e52]:
+              - generic [aria-hidden] [ref=f19e53]: ll
+              - generic [ref=f19e54]: produkt-royal-gold-zrno.webp
+            - generic [ref=f19e55]:
+              - paragraph [ref=f19e56]: Coffee · beans
+              - heading [level=3] [ref=f19e57]:
+                - link "espirella Royal Gold – whole beans" [ref=f19e58] [cursor=pointer]:
+                  - /url: beyond-preview.html
+              - paragraph [ref=f19e59]: Medium roast
+              - generic [ref=f19e60]:
+                - paragraph [ref=f19e61]: 191 Kč – 359 Kč
+                - paragraph [aria-hidden] [ref=f19e62]: Select →
+          - article [ref=f19e63]:
+            - generic [ref=f19e64]:
+              - generic [aria-hidden] [ref=f19e65]: ll
+              - generic [ref=f19e66]: produkt-columbia-zrno.webp
+            - generic [ref=f19e67]:
+              - paragraph [ref=f19e68]: Coffee · beans
+              - heading [level=3] [ref=f19e69]:
+                - link "espirella Columbia – whole beans" [ref=f19e70] [cursor=pointer]:
+                  - /url: beyond-preview.html
+              - paragraph [ref=f19e71]: Medium roast
+              - generic [ref=f19e72]:
+                - paragraph [ref=f19e73]: 202 Kč
+                - paragraph [aria-hidden] [ref=f19e74]: Select →
+          - article [ref=f19e75]:
+            - generic [ref=f19e76]:
+              - generic [aria-hidden] [ref=f19e77]: ll
+              - generic [ref=f19e78]: produkt-green-tea-passion.webp
+            - generic [ref=f19e79]:
+              - paragraph [ref=f19e80]: Tea
+              - heading [level=3] [ref=f19e81]:
+                - link "Green tea passion" [ref=f19e82] [cursor=pointer]:
+                  - /url: beyond-preview.html
+              - generic [ref=f19e83]:
+                - paragraph [ref=f19e84]: 184 Kč
+                - paragraph [aria-hidden] [ref=f19e85]: Select →
+        - link "Go to the shop" [ref=f19e87] [cursor=pointer]:
+          - /url: beyond-preview.html
+          - text: Go to the shop
+          - generic [aria-hidden] [ref=f19e88]: →
+    - region [ref=f19e89]:
+      - generic [ref=f19e90]:
+        - generic [ref=f19e91]:
+          - paragraph [ref=f19e92]: Our coffee
+          - heading "What makes it special" [level=2] [ref=f19e93]
+        - list [ref=f19e94]:
+          - listitem [ref=f19e95]:
+            - paragraph [aria-hidden] [ref=f19e96]: "01"
+            - heading "Harvesting" [level=3] [ref=f19e97]
+            - paragraph [ref=f19e98]: The coffee comes from small independent farmers and is hand-picked so that the beans are of 100% quality.
+          - listitem [ref=f19e99]:
+            - paragraph [aria-hidden] [ref=f19e100]: "02"
+            - heading "Roasting" [level=3] [ref=f19e101]
+            - paragraph [ref=f19e102]: The beans are medium roasted.
+          - listitem [ref=f19e103]:
+            - paragraph [aria-hidden] [ref=f19e104]: "03"
+            - heading "Preparation" [level=3] [ref=f19e105]
+            - paragraph [ref=f19e106]: We recommend a French Press for brewing.
+    - region [ref=f19e107]:
+      - generic [ref=f19e108]:
+        - generic [ref=f19e109]:
+          - generic [aria-hidden] [ref=f19e110]: ll
+          - generic [ref=f19e111]: ochutnavka.webp
+          - 'img "Coffee tasting: several cups of freshly brewed coffee and bowls of coffee beans on a wooden counter" [ref=f19e112]'
+        - generic [ref=f19e113]:
+          - paragraph [ref=f19e114]: Tasting
+          - heading "Coffee tasting? No problem" [level=2] [ref=f19e115]:
+            - text: Coffee tasting?
+            - generic [ref=f19e116]: No problem
+          - paragraph [ref=f19e117]: You can taste the coffee before you buy. Arrange a tasting in advance at our shop – just write to us through the contact form.
+          - link "Book a tasting" [ref=f19e119] [cursor=pointer]:
+            - /url: beyond-preview.html
+          - paragraph [ref=f19e120]: Mon–Fri 9.00–15.00
+  - contentinfo [ref=f19e121]:
+    - generic [ref=f19e122]:
+      - img "Espirella – brand mark" [ref=f19e124]
+      - generic [ref=f19e125]:
+        - heading "Registered office" [level=2] [ref=f19e126]
+        - generic [ref=f19e127]:
+          - paragraph [ref=f19e128]: Espirella, s.r.o.Kaprova 42/14, Staré Město110 00 Praha
+          - paragraph [ref=f19e129]: "IČO: 24187267"
+        - list [ref=f19e130]:
+          - listitem [ref=f19e131]:
+            - link "info@espirella.com" [ref=f19e132] [cursor=pointer]:
+              - /url: mailto:info@espirella.com
+          - listitem [ref=f19e133]:
+            - link "+420 608 311 088" [ref=f19e134] [cursor=pointer]:
+              - /url: tel:+420608311088
+      - generic [ref=f19e135]:
+        - heading "Warehouse address" [level=2] [ref=f19e136]
+        - paragraph [ref=f19e138]: Politických věznů 1233/40, budova EŘíčany u Prahy251 01
+      - generic [ref=f19e139]:
+        - heading "Opening hours" [level=2] [ref=f19e140]
+        - generic [ref=f19e141]:
+          - generic [ref=f19e142]:
+            - term [ref=f19e143]: Monday – Friday
+            - definition [ref=f19e144]: 9.00 – 15.00
+          - generic [ref=f19e145]:
+            - term [ref=f19e146]: Saturday
+            - definition [ref=f19e147]: Closed
+          - generic [ref=f19e148]:
+            - term [ref=f19e149]: Sunday
+            - definition [ref=f19e150]: Closed
+    - generic [ref=f19e152]:
+      - list [ref=f19e153]:
+        - listitem [ref=f19e154]:
+          - link "General terms and conditions" [ref=f19e155] [cursor=pointer]:
+            - /url: beyond-preview.html
+        - listitem [ref=f19e156]:
+          - link "Privacy policy" [ref=f19e157] [cursor=pointer]:
+            - /url: beyond-preview.html
+      - paragraph [ref=f19e158]: Design concept for Espirella, s.r.o., not a live site.

@@ -185,6 +185,10 @@ h1, h2 { text-wrap: balance; }
   .nav .btn { min-height: 48px; padding: 10px var(--space-4); }
   .brand img { width: 88px; height: 47px; }  /* keeps the nav inside the gutter at 360px */
 }
+/* German "Warenkorb" is too wide for the row on narrow phones: show the short, correct form "Korb". */
+.nav__short { display: none; }
+@media (min-width: 370px) and (max-width: 379px) { html[lang="de"] .nav { gap: var(--space-2); } }  /* keeps "Warenkorb" in full at 375px */
+@media (max-width: 369px) { .nav__full { display: none; } .nav__short { display: inline; } }
 @media (max-width: 359px) {
   .nav { gap: var(--space-2); }
   .brand img { width: 76px; height: 40px; }
@@ -192,6 +196,27 @@ h1, h2 { text-wrap: balance; }
 @media (max-width: 339px) {
   .nav .btn { padding-inline: var(--space-3); }
   .brand img { width: 64px; height: 34px; }
+}
+
+/* Language switcher: inline on the right at >=1024px; below that a slim top row of the sticky header. */
+.brand { margin-right: auto; }
+.lang-switch { display: flex; align-items: center; }
+.lang-switch a {
+  display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; padding: 0 var(--space-2);
+  font: 600 var(--text-xs)/1 var(--font-body); letter-spacing: 0.08em; color: var(--color-on-dark-muted); text-decoration: none;
+  border-radius: var(--radius-sm); transition: color var(--dur-fast) var(--ease-out);
+}
+.lang-switch a:hover, .lang-switch a[aria-current="true"] { color: var(--color-accent); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
+.lang-switch a[aria-current="true"] { font-weight: 700; }
+@media (max-width: 1023px) {
+  /* The 44px language row scrolls away; the 64px logo + nav row stays stuck. */
+  .site-header { top: -44px; }
+  .site-header__inner { flex-wrap: wrap; height: auto; row-gap: 0; }
+  .lang-switch { order: -1; flex: 0 0 100%; justify-content: flex-end; height: 44px; }
+  .brand, .nav { height: var(--header-h); }
+}
+@media (min-width: 1024px) {
+  .lang-switch { margin-left: var(--space-3); padding-left: var(--space-2); border-left: 1px solid var(--line-on-dark-strong); }
 }
 
 /* ---------- Hero ---------- */

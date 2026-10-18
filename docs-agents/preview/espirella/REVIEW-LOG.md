@@ -163,3 +163,13 @@ Check: only `mailto:`/visible email text match `espirella.c…`; nothing remote;
 **Regression fixed after the check (director exception).** On `beyond-preview.html` the header "Obchod" pill label was invisible: `.nav a[aria-current="page"]` set its text to the pill's own accent colour. Because this update introduced it, the builder removed `aria-current` from the pill. The markup is now identical to the homepage pill, which renders correctly. It has not been re-screenshotted.
 
 **Unresolved (carried to PITCH.md):** Originality 7 (waiting on images); Royal Gold "Vybrat →" wrap at 375; uneven card titles and Green tea's empty meta at 1440; one-line steps 02/03 (owner content); 12px gap between Košík and Kontakt at 375.
+
+---
+
+# Update: English and German versions
+
+- Added `en/index.html`, `en/beyond-preview.html`, `de/index.html`, `de/beyond-preview.html` (same markup and CSS, translated copy, `../` paths, shared assets). Czech stays at the root.
+- CS / EN / DE switcher on all six pages. Each option opens the same page in the other language; the current one is marked. Under 1024px it sits in a slim row at the top of the header that scrolls away; from 1024px it's inline after the Shop pill.
+- German "Warenkorb" shows as "Korb" under 370px (accessible name stays "Warenkorb").
+- Director check in the browser: with phone-style overlay scrollbars, the header fits in one row on all six pages at 320/360/375px with no overflow; desktop header at 1440 is clean. Switcher clicks EN → DE, DE beyond → CS beyond open the right pages. No links to espirella.com (only the allowed mailto).
+- Known edge case: in a desktop browser narrowed to 375px with a classic 15px scrollbar, the German header wraps to two rows. Real phones aren't affected.

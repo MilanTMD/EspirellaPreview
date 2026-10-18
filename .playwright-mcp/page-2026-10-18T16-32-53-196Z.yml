@@ -1,0 +1,86 @@
+- generic [active] [ref=f22e1]:
+  - link "Přeskočit na obsah" [ref=f22e2] [cursor=pointer]:
+    - /url: "#obsah"
+  - banner [ref=f22e3]:
+    - generic [ref=f22e4]:
+      - link "Espirella – hlavní stránka" [ref=f22e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Espirella" [ref=f22e6]
+      - navigation "Hlavní navigace" [ref=f22e7]:
+        - link "Hlavní stránka" [ref=f22e8] [cursor=pointer]:
+          - /url: index.html
+        - link "Košík" [ref=f22e9] [cursor=pointer]:
+          - /url: beyond-preview.html
+        - link "Kontakt" [ref=f22e10] [cursor=pointer]:
+          - /url: index.html#kontakt
+        - link "Obchod" [ref=f22e11] [cursor=pointer]:
+          - /url: beyond-preview.html
+      - navigation "Jazyk" [ref=f22e12]:
+        - link "Čeština" [ref=f22e13] [cursor=pointer]:
+          - /url: beyond-preview.html
+          - text: CS
+        - link "English" [ref=f22e14] [cursor=pointer]:
+          - /url: en/beyond-preview.html
+          - text: EN
+        - link "Deutsch" [ref=f22e15] [cursor=pointer]:
+          - /url: de/beyond-preview.html
+          - text: DE
+  - main [ref=f22e16]:
+    - generic [ref=f22e17]:
+      - generic [ref=f22e18]:
+        - paragraph [ref=f22e19]: Designový koncept
+        - heading "Tato stránka není součástí ukázky" [level=1] [ref=f22e20]
+        - paragraph [ref=f22e21]: Toto je designový koncept úvodní stránky Espirella. Zbytek webu – e‑shop, košík, kontaktní formulář a další stránky – by na něj navázal ve stejném stylu.
+        - paragraph [ref=f22e22]:
+          - text: Objednávku nebo ochutnávku si zatím domluvte na
+          - link "info@espirella.com" [ref=f22e23] [cursor=pointer]:
+            - /url: mailto:info@espirella.com
+          - text: nebo
+          - link "+420 608 311 088" [ref=f22e24] [cursor=pointer]:
+            - /url: tel:+420608311088
+          - text: .
+        - generic [ref=f22e25]:
+          - link "Zpět na ukázku" [ref=f22e26] [cursor=pointer]:
+            - /url: index.html
+          - link "Kontakt" [ref=f22e27] [cursor=pointer]:
+            - /url: index.html#kontakt
+      - generic [ref=f22e29]: ll
+  - contentinfo [ref=f22e30]:
+    - generic [ref=f22e31]:
+      - img "Espirella – značka" [ref=f22e33]
+      - generic [ref=f22e34]:
+        - heading "Sídlo společnosti" [level=2] [ref=f22e35]
+        - generic [ref=f22e36]:
+          - paragraph [ref=f22e37]: Espirella, s.r.o.Kaprova 42/14, Staré Město110 00 Praha
+          - paragraph [ref=f22e38]: "IČO: 24187267"
+        - list [ref=f22e39]:
+          - listitem [ref=f22e40]:
+            - link "info@espirella.com" [ref=f22e41] [cursor=pointer]:
+              - /url: mailto:info@espirella.com
+          - listitem [ref=f22e42]:
+            - link "+420 608 311 088" [ref=f22e43] [cursor=pointer]:
+              - /url: tel:+420608311088
+      - generic [ref=f22e44]:
+        - heading "Adresa skladu" [level=2] [ref=f22e45]
+        - paragraph [ref=f22e47]: Politických věznů 1233/40, budova EŘíčany u Prahy251 01
+      - generic [ref=f22e48]:
+        - heading "Otevírací doba" [level=2] [ref=f22e49]
+        - generic [ref=f22e50]:
+          - generic [ref=f22e51]:
+            - term [ref=f22e52]: Pondělí – Pátek
+            - definition [ref=f22e53]: 9.00 – 15.00
+          - generic [ref=f22e54]:
+            - term [ref=f22e55]: Sobota
+            - definition [ref=f22e56]: Zavřeno
+          - generic [ref=f22e57]:
+            - term [ref=f22e58]: Neděle
+            - definition [ref=f22e59]: Zavřeno
+    - generic [ref=f22e61]:
+      - list [ref=f22e62]:
+        - listitem [ref=f22e63]:
+          - link "Všeobecné obchodní podmínky" [ref=f22e64] [cursor=pointer]:
+            - /url: beyond-preview.html
+        - listitem [ref=f22e65]:
+          - link "Ochrana osobních údajů" [ref=f22e66] [cursor=pointer]:
+            - /url: beyond-preview.html
+      - paragraph [ref=f22e67]: Design concept for Espirella, s.r.o., not a live site.Designový koncept pro Espirella, s.r.o., nejde o ostrý web.
