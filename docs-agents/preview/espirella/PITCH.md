@@ -1,52 +1,58 @@
-# PITCH – Espirella homepage concept
+# PITCH – espirella preview
 
-Prospect: https://www.espirella.com/ · Concept: `preview/espirella/` (homepage only, Czech)
+Preview of the finished redesign (https://espirellaproduction.netlify.app/), packaged as a static homepage concept in Czech, English and German. "Before" is the client's current site, www.espirella.com.
 
 ## 1. What's better
 
-1. **Visitors know straight away what Espirella sells, and where to buy it.** The old page opened with "Vítejte na webových stránkách espirella s.r.o." and two identical outline buttons. The new hero says "Káva od malých farmářů", explains the offer in one line, and has one clear button, "Do obchodu", with tasting as the quieter second option. On a phone the coffees and prices now appear after about one scroll; before, they started roughly 3,300px down, below three long text blocks.
-2. **Everything is easy to read.** The thin, small, grey, justified text is gone, and so is the washed-out grey tasting band with white text. Text is now larger, darker and left-aligned on calm cream, sand and espresso backgrounds, and no text sits on top of busy bean photos, the footer included.
-3. **The shop looks finished and trustworthy.** The product cards have clear names, prices and a "Vybrat →" link, all lined up evenly. Tea is no longer listed under a coffee-only heading, and the WooCommerce "missing image" box is replaced by a consistent placeholder ready for real product photos. The footer contact details are tidy and the links now open what they show.
+1. **Visitors see right away what Espirella sells, and can start buying in one tap.** The old homepage opened with "Vítejte na webových stránkách espirella s.r.o." in white capitals over a busy bean photo, with two small, equally weighted buttons. On a phone the products started about 3,300px down. The new homepage says "Čerstvě pražená káva pro vaše espresso" and offers one clear "Vybrat kávu" button. All five espirella coffees, with prices, follow straight after.
+2. **Everything is easy to read.** The thin, small, grey, justified text is gone. So is the pale grey tasting band with white text, and so is footer text printed over a coffee-bean photo. Text is now larger and dark on warm cream, and each section sits on a calm, solid band of colour (light teal, sand, dark espresso), so nothing is hard to make out.
+3. **The shop looks finished and trustworthy.** The four plain boxes, one of them a grey "missing image" icon and a tea listed under a coffee heading, are now five proper coffee cards. Each card shows taste notes, a strength scale, the price and a link to the ground version. Tea, accessories and machine care have their own clearly labelled tiles. There's also a band for offices and cafés, a tasting invitation and a tidy "Kde nás najdete" block with hours, addresses and contacts.
 
 ## 2. Email paragraph
 
 **Czech (to send):**
 
-> Dobrý den, připravili jsme pro firmu Espirella nezávazný návrh nové úvodní stránky: [preview link]. Hned nahoře je jasně řečeno, co nabízíte – ručně vybíranou kávu od malých farmářů – a jedno výrazné tlačítko vede přímo do e-shopu. Káva s cenami je hned pod úvodem, takže ji zákazník na mobilu uvidí po prvním posunutí, a texty jsou větší a lépe čitelné. Jde o koncept, fotografie jsou zatím jen zástupné. Při práci jsme si také všimli, že odkaz na info@espirella.com ve skutečnosti otevírá adresu info@espirella.cz a že odkazy na obchodní podmínky vedou na nefunkční stránky. Rádi návrh doladíme podle Vašich představ a s Vašimi fotkami produktů – budete mít chvilku na krátký hovor?
+> Dobrý den, posíláme ukázku nové podoby úvodní stránky webu Espirella: [preview link]. Hned nahoře je jasně řečeno, co nabízíte, a jedno výrazné tlačítko vede k výběru kávy. Všech pět káv espirella s chuťovým profilem, intenzitou a cenou je přímo pod úvodem. Najdete tu také čaje, doplňky, péči o kávovar, nabídku pro kanceláře a kavárny i pozvánku na ochutnávku. Texty jsou větší a dobře čitelné, i na mobilu. Ukázka je v češtině, angličtině a němčině; fotografie jsou zatím jen zástupné a ostatní stránky webu na ni navážou ve stejném stylu. Budeme rádi za Vaše připomínky – máte chvilku na krátký hovor?
 
 **English (for reference):**
 
-> Hello, we've put together a no-obligation concept for a new Espirella homepage: [preview link]. Right at the top it says clearly what you offer – hand-picked coffee from small farmers – and one strong button leads straight to the e-shop. The coffees and prices sit right below the intro, so mobile visitors see them after one scroll, and the text is larger and easier to read. It's a concept, and the photos are placeholders for now. While working on it we also noticed that the info@espirella.com link actually opens info@espirella.cz, and that the terms and conditions links lead to broken pages. We'd be glad to refine it to your taste and with your own product photos – would you have a moment for a short call?
+> Hello, here is a preview of the new Espirella homepage: [preview link]. Right at the top it says clearly what you offer, and one strong button leads to choosing a coffee. All five espirella coffees, with taste notes, intensity and price, sit directly below the intro. You'll also find teas, accessories, machine care, an offer for offices and cafés, and an invitation to a tasting. The text is larger and easy to read, on mobile too. The preview is in Czech, English and German; the photos are placeholders for now, and the rest of the site would follow in the same style. We'd be glad to hear your thoughts. Would you have a moment for a short call?
 
 ## 3. Screenshots to attach
 
-Attach the **1440px pair**: `screenshots/before-1440.png` and `screenshots/after-1440.png`. Both fit on one screen when opened, and the hero change, the readable text and the tidy product row are obvious at a glance. The 375px pair (`before-375.png`, `after-375.png`) shows the faster path to the products even better, but the images are very tall and narrow, so keep them for a follow-up or the call.
+Attach the **1440px pair**: `screenshots/before-1440.png` and `screenshots/after-1440.png`. On a laptop screen the contrast is obvious at a glance: the busy photo hero against the clear headline and button, the grey tasting band against the calm colour bands, and four bare product boxes against five full coffee cards.
 
-If you can, generate at least `hero-kava.webp` and re-shoot the after-screenshot first: the hero is the largest placeholder and the most visible part of the page.
+The 375px pair (`before-375.png`, `after-375.png`) shows the faster path to the coffees on a phone even better. Both images are very tall and narrow, though, so save them for a follow-up or the call.
+
+Ideally, generate at least `hero-home.webp` first and re-shoot `after-1440.png`. The hero is the largest placeholder and the first thing the owner sees.
 
 ## 4. Scores and open items
 
-**Final critic verdict: REVISE.** Scores (round 1 → round 2 → final → after the links update): Hierarchy 8 → 8 → 8 → 8 · Typography 8 → 8 → 8 → 8 · Spacing 7 → 7 → 8 → 8 · Color 8 → 8 → 8 → 8 · Motion 8 → 8 → 8 → 8 · Originality 7 → 7 → 7 → 7 · Polish 7 → 8 → 8 → 8. Only Originality is below 8; the critic expects a strong hero photo may lift it.
+**Final critic verdict: APPROVED (round 2).**
 
-**Links: none point to the prospect's old website.** Every link that led to espirella.com (navigation, shop and tasting buttons, product cards, legal documents) now opens `beyond-preview.html`. That page says, in Czech, that it isn't part of the concept, and offers "Zpět na ukázku", a "Kontakt" button and the email/phone. "Kontakt" in the header jumps to the contact details in the footer. The only link containing the domain is `mailto:info@espirella.com`, which is allowed. The critic scored `beyond-preview.html` 6 only because of an invisible "Obchod" label, since fixed (see REVIEW-LOG.md); that fix hasn't been re-screenshotted.
+| Criterion | Round 1 | Round 2 |
+|---|---|---|
+| Hierarchy | 9 | 9 |
+| Typography | 9 | 9 |
+| Spacing and rhythm | 9 | 9 |
+| Color | 9 | 9 |
+| Motion | 8 | 9 |
+| Originality | 8 | 8 |
+| Polish | 7 | 9 |
 
-**Unresolved critic fixes (final check, by impact)**
-1. Originality: no signature element yet. Re-check after the images are in.
-2. Royal Gold card at 375px: "191 Kč – 359 Kč" pushes "Vybrat →" onto its own line, so that card is taller than the others. *(Also the builder's one partial item from round 2.)* Fix with a smaller price size, or "od 191 Kč" wording if the owner agrees.
-3. Product cards at 1440px: titles wrap unevenly, and Green tea has no meta line, leaving empty space above its price.
-4. Steps section at 1440px: steps 02 and 03 have one short line each. The brief has no more facts; ask the owner for detail.
-5. Header at 375px: "Košík" and "Kontakt" sit close together. Minor.
+The homepage matches production section by section at 375px and 1440px. The only visible differences are the intended additions: the CS/EN/DE switcher and the footer note.
 
-**Images to generate (6),** all into `preview/espirella/assets/` with these exact names. Prompts and alt text are in `ASSETS.md`.
-- `hero-kava.webp`
-- `produkt-brasil-zrno.webp`, `produkt-royal-gold-zrno.webp`, `produkt-columbia-zrno.webp`, `produkt-green-tea-passion.webp`
-- `ochutnavka.webp`
+**Links: none point to the client's old website or to the production URL.** Every other page (shop, categories, products, cart, search, shipping, terms, privacy, tasting and B2B contact forms) opens `beyond-preview.html` in the same language. That page has "Zpět na ukázku" / "Back to the preview" / "Zurück zur Vorschau". The only outbound links are `tel:`, `mailto:info@espirella.com` and Mapy.cz.
 
-The smaller `-720` and `-400` variants in ASSETS.md are optional; the page doesn't reference them. For production, the owner's real packshots should replace the AI ones.
+**Deliberate deviation from production:** "Kontakt" in the header, mobile menu and footer jumps to the homepage's "Kde nás najdete" section instead of production's `/kontakt/` page, so the owner lands on real content.
 
-**To confirm with the owner**
-- **Email and phone.** The concept links info@espirella.com and +420 608 311 088 to exactly what is shown. The live site's links go to info@espirella.cz and +420 725 808 007, and /kontakt/ also lists obchod@espirella.com, so confirm which are correct.
-- **Legal PDFs.** The live site's archive links now end in 404. In the concept, "Všeobecné obchodní podmínky" and "Ochrana osobních údajů" open `beyond-preview.html`, so ask for the current documents.
-- **Tasting location.** The copy says "v naší prodejně" without an address, because the site never says whether that's Prague or Říčany.
-- **Copyright line.** "© 2023 All rights reserved" was left out because the year is outdated. Add a current one if wanted.
-- **Not carried over:** the search box, the old page title (replaced with a descriptive one), and the 2023 copyright line.
+**Skipped builder items:** none. All round-1 fixes were applied and verified.
+
+**Optional critic suggestions (not applied, non-blocking)**
+1. CS footer note at 375px: "web." wraps onto its own line. Use `ostrý&nbsp;web.` or `text-wrap: pretty`, and check DE "Live-Website." too.
+2. Mobile menu → Kontakt: keyboard focus ends on the page body. Move it to the "Kde nás najdete" heading.
+3. The cup graphic on the beyond-preview page has no frame or label and reads slightly unfinished. If you change it, use production's crema colours.
+
+**Worth a native check:** a few EN/DE wording choices, for example "Machine care" / "Maschinenpflege", "Shipping & payment" / "Versand & Zahlung", and the short IČO/DIČ explanation added in the EN and DE B2B text.
+
+**Images still to generate (10, prompts in ASSETS.md):** `hero-home.webp`, `process-puvod.webp`, `process-prazeni.webp`, `process-priprava.webp`, `category-kava.webp`, `category-caj.webp`, `category-doplnky.webp`, `category-pece.webp`, `b2b.webp`, `tasting.webp`. Drop them into `preview/espirella/assets/` and they appear on all three language versions with no code change. Keep subjects inside the safe zones in ASSETS.md, because the hero and category slots change shape at 1024px.
